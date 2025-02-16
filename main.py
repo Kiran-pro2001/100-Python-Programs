@@ -59,4 +59,10 @@ print("Area of Circle : ", area_of_circle(5))
 squares = [num**2 for num in range(1,11)]
 print(squares)
 
+# 10. File Handling - Write a File
+with open("sample.txt", "a") as file: 
+  file.write("Hello World")
+  
+with open("sample.txt","r") as file: 
+  print(file.read())
 
