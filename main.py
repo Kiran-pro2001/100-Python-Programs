@@ -53,3 +53,10 @@ import math
 def area_of_circle(radius): 
   return math.pi * radius ** 2 
 print("Area of Circle : ", area_of_circle(5))
+
+
+# 9. List Comprehension - Squares of a Number 
+squares = [num**2 for num in range(1,11)]
+print(squares)
+
+
