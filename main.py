@@ -4,10 +4,11 @@
 print("Hello World")
 
 # 2. Simple Calculator 
-def add(num1,num2):
+def calculator(num1,num2):
   add = num1 + num2
   subtract = num1 - num2 
   multiply = num1 * num2
   divide = num1 / num2
-  return num1 + num2 
-print(add(3,4))
+  return add,subtract,multiply,divide
+
+print(calculator(10,5))
