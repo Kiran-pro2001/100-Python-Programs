@@ -49,3 +49,7 @@ print(check_odd_even(10))
 
 
 # 8. Area of a Circle 
+import math 
+def area_of_circle(radius): 
+  return math.pi * radius ** 2 
+print("Area of Circle : ", area_of_circle(5))
