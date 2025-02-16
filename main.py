@@ -97,3 +97,10 @@ def celsius_to_farhen(celsius_value):
   return (celsius_value * (9/5)) + 32 
 print(celsius_to_farhen(10))
 
+
+# 15. String Operations 
+my_string = "Kiran Kumar"
+print("Length :", len(my_string))
+print("Uppercase : ", my_string.upper())
+print("Lowercase:", my_string.lower())
+print("Reverse :",my_string[::-1])
