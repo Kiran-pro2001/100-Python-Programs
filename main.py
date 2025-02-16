@@ -75,3 +75,12 @@ def check_palindrome(my_string):
     print("Not a Palindrome")
 check_palindrome("ii")
     
+    
+# 12. Find the largest amont three numbers 
+def largest_of_three(num1,num2,num3):
+  my_list = []
+  my_list.append(num1)
+  my_list.append(num2)
+  my_list.append(num3)
+  return max(my_list)
+print(largest_of_three(10,20,15))
