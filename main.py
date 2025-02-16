@@ -66,3 +66,12 @@ with open("sample.txt", "a") as file:
 with open("sample.txt","r") as file: 
   print(file.read())
 
+
+# 11. Check Palindrome 
+def check_palindrome(my_string):
+  if my_string == my_string[::-1]:
+    print("Palindrome")
+  else: 
+    print("Not a Palindrome")
+check_palindrome("ii")
+    
