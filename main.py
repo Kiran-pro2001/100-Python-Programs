@@ -84,3 +84,10 @@ def largest_of_three(num1,num2,num3):
   my_list.append(num3)
   return max(my_list)
 print(largest_of_three(10,20,15))
+
+
+# 13. Print Multiplication Number 
+def multiplication_table(num):
+  for value in range(1,11):
+    print(num * value)
+multiplication_table(5)
