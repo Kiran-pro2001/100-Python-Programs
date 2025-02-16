@@ -18,10 +18,24 @@ print(calculator(10,5))
 
 def factorial(num):
   if num == 0:
-    return 1 
+    return 1
   else: 
     return num * factorial(num-1)
 
 number = int(input("Enter a Number : "))
-print(factorial(number))
+print("Factorial :", factorial(number))
+
+
+
+# 4. Fibonacci Sequence 
+
+
+
+# 5. Check for Prime Number 
+
+# 6. Simple Interest Calculator 
+def si_calculator(p,r,t):
+  return (p*r*t)/100
+print(si_calculator(1000,5,5))
   
+
