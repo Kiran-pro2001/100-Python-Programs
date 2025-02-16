@@ -36,6 +36,16 @@ print("Factorial :", factorial(number))
 # 6. Simple Interest Calculator 
 def si_calculator(p,r,t):
   return (p*r*t)/100
-print(si_calculator(1000,5,5))
+print("Simple Interest : ", si_calculator(1000,5,5))
   
 
+# 7. Check for Even or Odd   
+def check_odd_even(num):
+  if num%2 == 0:
+    return "Even" 
+  else:
+    return "Odd" 
+print(check_odd_even(10)) 
+
+
+# 8. Area of a Circle 
