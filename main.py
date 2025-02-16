@@ -91,3 +91,9 @@ def multiplication_table(num):
   for value in range(1,11):
     print(num * value)
 multiplication_table(5)
+
+# 14. Convert Celsius to Fahrenheit 
+def celsius_to_farhen(celsius_value):
+  return (celsius_value * (9/5)) + 32 
+print(celsius_to_farhen(10))
+
